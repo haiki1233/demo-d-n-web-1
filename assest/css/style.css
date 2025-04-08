@@ -1,0 +1,83 @@
+html{
+   font-size: 62,5%;
+}
+
+body{
+   font-size: 1rem;
+   font-family: "Inter", sans-serif;
+}
+
+/* ====================== comemt =================== */
+a{
+   text-decoration: none;
+}
+
+.content-main{
+   width: 1424.49px;
+   height: 84px;
+   max-width: calc(100% - 105px);
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+}
+
+.btn{
+   color: #FFFFFF;
+   min-width: 51px;
+   height: 20px;
+   background-color: #4CAF4F;
+   padding: 10px 20px;
+   border-radius: 10px;
+}
+
+/* ========================== header =========================== */
+
+.header{
+   background-color: #F5F7FA;
+}
+
+.header.fixel{
+   position: sticky;
+   top: -10px;
+}
+
+.header .body{
+   display: flex;
+   align-items: center;
+   padding: 22px 0;
+}
+
+.header .body ul{
+   display: flex;
+}
+
+.header .active{
+   display: flex;
+   margin-left: 145px;
+}
+
+
+.body .nav{
+   margin-left: auto;
+ }
+
+.nav a{
+   font-size: 1.6rem;
+   color: #18191F;
+   padding: 12px 5px;
+   margin: 30px 20px;
+   position: relative;
+}
+
+.header .active .logo{
+   width: 37px;
+   height: 20px;
+   padding: 10px 20px;
+   color: #4CAF4F;
+}
+
+.header .active .sign-up{
+   min-width: 51px;
+   height: 20px;
+}
+
