@@ -30,10 +30,19 @@ a{
    border-radius: 10px;
 }
 
+.btn:hover{
+   opacity: 0.8;
+}
+
+.main{
+   background: #fffcf4;
+}
+
 /* ========================== header =========================== */
 
 .header{
    background-color: #F5F7FA;
+   z-index: 1;
 }
 
 .header.fixel{
@@ -81,3 +90,61 @@ a{
    height: 20px;
 }
 
+/* ==================== hero ====================== */
+
+.hero .body{
+   width: 1440px;
+   height: 599px;
+   margin: 0 36.5px;
+}
+
+.hero .main-conten{
+   display: flex;
+}
+
+.hero .hero-left{
+   margin: 149px 144px 162px;
+   min-width: 167px;
+   height: 276px;
+}
+
+.hero .decs{
+   color: #4d4d4d;
+   font-size: 3rem;
+   font-weight: 700;
+   line-height: 1.16;
+}
+
+.hero .decs span{
+   color: #4CAF4F;
+}
+
+.hero .hero-left .text{
+   font-size: 1.4rem;
+   font-weight: 200;
+   margin-top: 16px;
+   line-height: 1.16;
+}
+
+.hero .hero-left .hero-btn{
+   margin-top: 32px;
+   width: 128px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 0px;
+}
+
+
+/* ========================== right ==================== */
+.hero .main-conten .img{
+   margin: 96px 144px 96px -44px;
+}
+
+.hero .main-conten .end{
+   width: 46px;
+   height: 10px;
+   position: absolute;
+   left: 697px;
+   top: 650px;
+}
